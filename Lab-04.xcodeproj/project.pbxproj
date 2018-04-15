@@ -15,6 +15,9 @@
 		1D86E9582083BE360073BB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D86E9562083BE360073BB6A /* LaunchScreen.storyboard */; };
 		1D86E9632083BE360073BB6A /* Lab_04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D86E9622083BE360073BB6A /* Lab_04Tests.swift */; };
 		1D86E96E2083BE360073BB6A /* Lab_04UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D86E96D2083BE360073BB6A /* Lab_04UITests.swift */; };
+		1D86E97C2083C2050073BB6A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D86E97B2083C2050073BB6A /* UserViewController.swift */; };
+		1D86E97F2083CE2D0073BB6A /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D86E97D2083CE2C0073BB6A /* Student+CoreDataClass.swift */; };
+		1D86E9802083CE2D0073BB6A /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D86E97E2083CE2C0073BB6A /* Student+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1D86E9692083BE360073BB6A /* Lab-04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab-04UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D86E96D2083BE360073BB6A /* Lab_04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_04UITests.swift; sourceTree = "<group>"; };
 		1D86E96F2083BE360073BB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D86E97B2083C2050073BB6A /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		1D86E97D2083CE2C0073BB6A /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1D86E97E2083CE2C0073BB6A /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		1D86E93E2083BE360073BB6A = {
 			isa = PBXGroup;
 			children = (
+				1D86E97D2083CE2C0073BB6A /* Student+CoreDataClass.swift */,
+				1D86E97E2083CE2C0073BB6A /* Student+CoreDataProperties.swift */,
 				1D86E9492083BE360073BB6A /* Lab-04 */,
 				1D86E9612083BE360073BB6A /* Lab-04Tests */,
 				1D86E96C2083BE360073BB6A /* Lab-04UITests */,
@@ -106,6 +114,7 @@
 				1D86E9562083BE360073BB6A /* LaunchScreen.storyboard */,
 				1D86E9592083BE360073BB6A /* Info.plist */,
 				1D86E9512083BE360073BB6A /* Lab_04.xcdatamodeld */,
+				1D86E97B2083C2050073BB6A /* UserViewController.swift */,
 			);
 			path = "Lab-04";
 			sourceTree = "<group>";
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D86E9802083CE2D0073BB6A /* Student+CoreDataProperties.swift in Sources */,
 				1D86E9532083BE360073BB6A /* Lab_04.xcdatamodeld in Sources */,
+				1D86E97C2083C2050073BB6A /* UserViewController.swift in Sources */,
 				1D86E94D2083BE360073BB6A /* ViewController.swift in Sources */,
 				1D86E94B2083BE360073BB6A /* AppDelegate.swift in Sources */,
+				1D86E97F2083CE2D0073BB6A /* Student+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
